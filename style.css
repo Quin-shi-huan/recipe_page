@@ -99,17 +99,7 @@ body::before{
 
     padding-inline: 1.5em;
     padding-block: 1.5em;
-
 }
-
-
-.recipes_specs{
-    display: flex;
-    flex-direction: column;
-    
-    margin-block-start: 1em;
-}
-
 
 .title_header{
     font-size: var(--heading-1-size);
@@ -119,33 +109,33 @@ body::before{
     color: var(--text-color-primary);
 }
 
+p{
+    font-size: var(--paragraph-size);
+    line-height: var(--paragraph-line-height);
+    font-weight: var(--paragraph-font-weight);
+
+    color: var(--text-color-secundary);
+}
+
+.recipes_specs{
+    display: flex;
+    flex-direction: column;
+    
+    margin-block-start: 1em;
+}
+
 #ingredients_section{
     display: flex;
     flex-direction: column;
     gap: 0.5em;
 }
 
-.ingredients_header{
+.ingredients_title{
     font-size: var(--heading-2-size);
     line-height: var(--heading-2-line-height); 
     font-weight: var(--heading-2-font-weight);
 
     color: var(--text-color-primary);
-}
-
-#method_preparation_section{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-}
-
-.title_method_preparation{
-    font-size: var(--heading-2-size);
-    line-height: var(--heading-2-line-height); 
-    font-weight: var(--heading-2-font-weight);
-
-    color: var(--text-color-primary);
-
 }
 
 ul > li{
@@ -160,12 +150,20 @@ ul > li{
     padding-inline-start: 10px;
 }
 
-p{
-    font-size: var(--paragraph-size);
-    line-height: var(--paragraph-line-height);
-    font-weight: var(--paragraph-font-weight);
 
-    color: var(--text-color-secundary);
+#method_preparation_section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.method_preparation_title{
+    font-size: var(--heading-2-size);
+    line-height: var(--heading-2-line-height); 
+    font-weight: var(--heading-2-font-weight);
+
+    color: var(--text-color-primary);
+
 }
 
 .footer_paragraph{
