@@ -147,7 +147,7 @@ ul > li{
     
     color: var(--text-color-secundary);
 
-    padding-inline-start: 10px;
+    padding-inline-start: 0.625em;
 }
 
 
