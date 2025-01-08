@@ -166,11 +166,9 @@ ul > li{
 
 .footer_paragraph{
     color: var(--text-color-on-bg);
-    display: flex;
-    gap: 0.3em;
     margin-block-start: 1em;
 }
 
-.footer_paragraph > img {
+.footer_paragraph img {
     vertical-align: middle;
 }
