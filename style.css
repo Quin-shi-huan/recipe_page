@@ -1,0 +1,178 @@
+:root{
+/* COLORS */
+
+    /* Surface Colors */
+    --background-color : #573824;
+    --surface-color: #f0e8c2;
+
+    /* Text Colors */
+    --text-color-primary: #291B1A;
+    --text-color-secundary: #573A37;
+    --text-color-on-bg: #F0E8C2;
+
+/* TIPOGRAPHY */
+
+    --font-family: "Alice", helvetica, serif, sans-serif;
+    --font-weight: 400;
+    --font-style: normal;
+
+    /* Heading 1 */
+    --heading-1-size: 40px;
+    --heading-1-line-height: 140%;
+    --heading-1-font-weight: 400;
+
+    /* Heading 2 */
+    --heading-2-size: 24px;
+    --heading-2-line-height: 150%;
+    --heading-2-font-weight: 400;
+
+    /* Paragraphs */
+    --paragraph-size: 16px;
+    --paragraph-line-height: 150%;
+    --paragraph-font-weight: 400;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    font-style: var(--font-style);
+
+    background-image: url(./images/main-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    backdrop-filter: blur(10px);
+
+    
+    padding-inline: 2em;
+    padding-block: 2em;
+}
+
+body::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color); 
+    filter: opacity(0.5);
+    z-index: -1; 
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+    width: 800px;
+    height: 1440px;
+
+    background-color: var(--surface-color);
+
+    padding-inline: 1.5em;
+    padding-block: 1.5em;
+
+    border-radius: 1.5em;
+
+    position: relative;
+    z-index: 2;
+}
+
+.main_image{
+    border-radius: 1.5em;
+}
+
+.container_article{
+    display: flex;
+    flex-direction: column;
+
+    margin-block-start: 1.5em;
+
+    gap: 1.5em;
+
+    padding-inline: 1.5em;
+    padding-block: 1.5em;
+
+}
+
+
+.recipes_specs{
+    display: flex;
+    flex-direction: column;
+    
+    margin-block-start: 1em;
+}
+
+
+.title_header{
+    font-size: var(--heading-1-size);
+    line-height: var(--heading-1-line-height);
+    font-weight: var(--heading-1-font-weight);
+    
+    color: var(--text-color-primary);
+}
+
+#ingredients_section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.ingredients_header{
+    font-size: var(--heading-2-size);
+    line-height: var(--heading-2-line-height); 
+    font-weight: var(--heading-2-font-weight);
+
+    color: var(--text-color-primary);
+}
+
+#method_preparation_section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.title_method_preparation{
+    font-size: var(--heading-2-size);
+    line-height: var(--heading-2-line-height); 
+    font-weight: var(--heading-2-font-weight);
+
+    color: var(--text-color-primary);
+
+}
+
+ul > li{
+    font-size: var(--paragraph-size);
+    line-height: var(--paragraph-line-height);
+    font-weight: var(--paragraph-font-weight);
+
+    list-style: inside;
+    
+    color: var(--text-color-secundary);
+
+    padding-inline-start: 10px;
+}
+
+p{
+    font-size: var(--paragraph-size);
+    line-height: var(--paragraph-line-height);
+    font-weight: var(--paragraph-font-weight);
+
+    color: var(--text-color-secundary);
+}
+
+.footer_paragraph{
+    color: var(--text-color-on-bg);
+    display: flex;
+    gap: 0.3em;
+    margin-block-start: 0.3em;
+
+    z-index: -1;
+}
