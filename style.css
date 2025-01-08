@@ -92,9 +92,7 @@ body::before{
 .container_article{
     display: flex;
     flex-direction: column;
-
-    margin-block-start: 1.5em;
-
+    
     gap: 1.5em;
 
     padding-inline: 1.5em;
