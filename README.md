@@ -1,12 +1,16 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Completed-2ea44f?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Status-Completed-ff69b4?style=for-the-badge" alt="Status">
 </p>
 
 <p align="center">
   <img width="400" height="800" alt="Time" src="https://github.com/user-attachments/assets/d251a855-e6c1-43e6-8426-dbdd7bcdc3e9"/>
 </p>
 
-
+<p align="center">
+  <a href="https://seu-usuario.github.io/nome-do-projeto/">
+    <img src="https://img.shields.io/badge/Acessar%20Projeto-Click%20Here-ff69b4?style=for-the-badge&logo=rocket&logoColor=white" alt="Link do Projeto">
+  </a>
+</p>
 
 This is a recipe page project by RocketSeat, developed to practice advanced CSS concepts, HTML semantics, and good code organization practices.
 
