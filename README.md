@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://seu-usuario.github.io/nome-do-projeto/">
+  <a href="https://quin-shi-huan.github.io/recipe_page/">
     <img src="https://img.shields.io/badge/Acessar%20Projeto-Click%20Here-ff69b4?style=for-the-badge&logo=rocket&logoColor=white" alt="Link do Projeto">
   </a>
 </p>
