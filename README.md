@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Completed-ff69b4?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Status-Completed-ff0084?style=for-the-badge" alt="Status">
 </p>
 
 <p align="center">
@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://quin-shi-huan.github.io/recipe_page/">
-    <img src="https://img.shields.io/badge/Acessar%20Projeto-Click%20Here-ff69b4?style=for-the-badge&logo=rocket&logoColor=white" alt="Link do Projeto">
+    <img src="https://img.shields.io/badge/Acessar%20Projeto-Click%20Here-ff0084?style=for-the-badge&logo=rocket&logoColor=white" alt="Link do Projeto">
   </a>
 </p>
 
